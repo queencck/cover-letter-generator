@@ -1,0 +1,11 @@
+version: '3'
+services:
+  react: 
+    build: ./react
+    ports:
+      - "8888:8888"
+
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
