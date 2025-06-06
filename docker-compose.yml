@@ -1,7 +1,7 @@
 version: '3'
 services:
   react: 
-    build: ./react
+    build: ./react-app
     ports:
       - "8888:8888"
 
